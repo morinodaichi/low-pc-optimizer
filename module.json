@@ -1,0 +1,33 @@
+{
+  "id": "low-pc-optimizer",
+  "title": "Foundry VTT Low PC Optimizer",
+  "description": "Otimiza agressivamente o motor de renderização do FoundryVTT para PCs fracos, inspirado no Sodium para Minecraft.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Mori Daichi"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/optimizer.mjs"
+  ],
+  "styles": [
+    "styles/optimizer.css"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "isSocketLib": true
+  }
+}
