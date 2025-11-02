@@ -1,0 +1,22 @@
+/* * Estilos para o Módulo Foundry VTT Low PC Optimizer
+ */
+
+/* Este arquivo carregará os estilos para qualquer UI customizada
+  que o módulo adicionar, como o botão de velocímetro ou
+  o painel de configurações.
+*/
+
+/* Um exemplo de classe de "namespacing" para um futuro
+  botão de ativação rápida na UI.
+*/
+.low-pc-optimizer-quick-toggle {
+  /* Adiciona um tom verde ao ícone para indicar "otimização" */
+  color: #4CAF50;
+}
+
+.low-pc-optimizer-quick-toggle.active {
+  /* Cor mais brilhante quando o modo estiver ativo */
+  color: #81C784;
+  /* Adiciona um brilho sutil para mostrar que está ligado */
+  text-shadow: 0 0 8px #81C784;
+}
